@@ -10,5 +10,5 @@ function enterClicked() {
   const streetName = document.getElementById("street-name").value
   // output
   document.getElementById("user-info").innerHTML =
-    "Your address is: " + streetNumber + " " + streetName
+    "Your address is: " + streetNumber + ", " + streetName
 }
